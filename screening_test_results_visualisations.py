@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 sensitivity = 0.26
 specificity = 0.91
 sample_size = 1000
-prevalence_rate = 0.30
+prevalence_rate = 0.76
 
 # Calculate TP, FP, TN and FN counts
 (true_positives, false_positives, true_negatives, false_negatives) = calculate_results(
