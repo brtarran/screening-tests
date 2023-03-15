@@ -5,9 +5,6 @@ Created on Wed Feb  8 12:52:29 2023
 @author: b.tarran
 """
 
-import matplotlib.pyplot as plt
-import numpy as np
-
 def calculate_results(sensitivity, specificity, sample_size, prevalence_rate):
     true_positives = sensitivity * prevalence_rate * sample_size
     false_positives = (1 - specificity) * (1 - prevalence_rate) * sample_size
